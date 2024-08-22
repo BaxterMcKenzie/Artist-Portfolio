@@ -1,10 +1,19 @@
-import React from 'react'
+
+import './App.css'
+import { HashRouter } from 'react-router-dom'
+
+import Links from './routes/Links'
+
+import Header from './pages/Header'
+
+
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <HashRouter>
+      <Header/>
+      <Links/>
+    </HashRouter>
   )
 }
 

@@ -1,13 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
 }
 
 .artwork-holder {
@@ -37,6 +33,118 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
+#bioSection {
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio-content {
+    display: flex;
+
+}
+
+#artist-image {
+    width: 450px;
+    height: 550px;
+    background-image: url(../public/rembrandt.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.bio-and-timeline-wrapper {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    width: 80%;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bio p {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.timeline ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.timeline ul li {
+    flex: 1 0 50%;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.header {
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    background-image: url("https://canonjjohn.com/wp-content/uploads/2021/01/JJ_Blog_HOTF_Rembrant_Web.jpg");
+    background-position: center;
+    filter: grayscale(50%);
+    z-index: 10;
+    font-family: "Baskervville SC", serif;
+}
+
+.header h1 {
+    font-size: 6em;
+    position: absolute;
+    top: 180px;
+    left: 38vw;
+    color: white;
+}
+
+.links {
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    font-size: 3em;
+    padding-top: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: #000000;
+}
+
+.links a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .links a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
 
 @media screen and (max-width: 992px) {
     .artwork-holder {
