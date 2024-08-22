@@ -4,7 +4,6 @@ const Biography = () => {
   return (
     <>
       <div id='bioSection'>
-        <h2>Biography</h2>
         <div className='bio-content'>
           <div id='artist-image'></div>
           <div  className='bio-and-timeline-wrapper'>
