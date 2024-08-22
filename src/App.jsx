@@ -1,3 +1,4 @@
+
 import './App.css'
 import { HashRouter } from 'react-router-dom'
 
@@ -6,8 +7,8 @@ import Links from './routes/Links'
 import Header from './pages/Header'
 
 
-const App = () => {
 
+const App = () => {
   return (
     <HashRouter>
       <Header/>
@@ -17,3 +18,4 @@ const App = () => {
 }
 
 export default App
+
