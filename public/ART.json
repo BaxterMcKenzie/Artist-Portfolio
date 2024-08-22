@@ -1,0 +1,25 @@
+[{
+    "id":"1",
+    "artwork_image": "/img/strom-on-sea.webp",
+    "artwork_title": "The Storm on the Sea of Galilee",
+    "desription": "The Storm on the Sea of Galilee is the only seascape ever painted by Rembrandt. It depicts Jesus calming the waves of the sea, saving the lives of the fourteen men aboard the vessel. Of these fourteen men, it is said Rembrandt included a self portrait of himself in the boat, next to Jesus and his twelve disciples. On March 18, 1990, the painting was stolen by thieves disguised as police officers. They broke into the Isabella Stewart Gardener Museum in Boston, Massachusetts, and stole this painting, along with twelve other works. The paintings have never been recovered, and it is considered the biggest art theft in history. The empty frames of the paintings still hang in their original location, waiting to be recovered.",
+    "release_year": "1633",
+    "genre": "Religious painting"
+},
+{
+    "id":"2",
+    "artwork_image": "/img/flora.webp",
+    "artwork_title": "Flora",
+    "desription": "Rembrandt painted his wife Saskia van Uylenburgh as Flora, goddess of spring and flowers, three times: in 1634,1635 and 1641. In this work he combined elements of pastoral and historical portraits. Created in the year of their marriage, this painting shows the love and admiration the artist felt for the young woman. The contrast between the young sitter's diffident pose and the sumptuousness of her richly embroidered clothes and accessories gives the image a special charm.",
+    "release_year": "1634",
+    "genre": "Portrait"
+},
+{
+    "id":"3",
+    "artwork_image": "/img/return.webp",
+    "artwork_title": "The Return of the Prodigal Son",
+    "desription": "The Return of the Prodigal Son is an oil painting by Rembrandt. It is among the Dutch master's final works, likely completed within two years of his death in 1669. Depicting the moment of the prodigal son's return to his father in the Biblical parable, it is a renowned work described by art historian Kenneth Clark as a picture which those who have seen the original in St. Petersburg may be forgiven for claiming as the greatest picture ever painted. In the painting, the son has returned home in a wretched state from travels in which he has wasted his inheritance and fallen into poverty and despair. He kneels before his father in repentance, wishing for forgiveness and a renewed place in the family, having realized that even his father's servants had a better station in life than he. His father receives him with a tender gesture. His hands seem to suggest mothering and fathering at once; the left appears larger and more masculine,",
+    "release_year": "1634",
+    "genre": "Portrait"
+}
+]

@@ -1,9 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+.artwork-holder {
+    border: 5px green solid;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.gallery-container {
+    width: 100%;
+}
+
+.art-card {
+    width: 100%;
+}
+
+.art-details {
+    background-color: rgb(181, 156, 0);
+    width: 100%;
+    padding: 20px;
+}
+
+.gallery-image {
+    border: 20px gold solid;
+    width: 100%;
+    object-fit: cover;
 }
 
 #bioSection {
@@ -117,3 +145,19 @@ h3 {
     transform-origin: bottom left;
   }
 
+
+@media screen and (max-width: 992px) {
+    .artwork-holder {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+    .artwork-holder {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+  }
