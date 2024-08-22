@@ -1,12 +1,12 @@
-import './App.css'
+import React from 'react'
 
 const App = () => {
-
   return (
-    <>
-    Hello
-    </>
+    <div>
+      
+    </div>
   )
 }
 
 export default App
+
